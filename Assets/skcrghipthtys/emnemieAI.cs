@@ -14,42 +14,69 @@ public enum aiTypes
 public class emnemieAI : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public Transform player;
+    public GameObject player;
     private float speed;
+    private float hLaTeG;
     public EnemySTATS STATS;
     public aiTypes ai;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        player=GameObject.Find("Playmonkey");
+        cHeCkStAtS();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 direction = (player.position - transform.position).normalized;
+        Vector2 direction = (player.transform.position - transform.position).normalized;
         transform.up = direction;
         rb.AddForce(direction * speed * Time.deltaTime);
         switch(ai)
         {
             case aiTypes.SingleShot:
-            speed = STATS.spd;
             break;
 
             case aiTypes.MultiShot:
-            speed = STATS.spd;
             break;
 
             case aiTypes.Foof:
-            float dist = Vector2.Distance(player.position, transform.position);
-            if(dist < STATS.chrgRdus)
+            float dist = Vector2.Distance(player.transform.position, transform.position);
+            if(dist < STATS.cHrGrDuS)
             {
-                speed = STATS.chrgSpud;
+                speed = STATS.cHrGsPuD;
             }
             else 
             {
-                speed = STATS.spd;
+                speed = STATS.sPd;
             }
+            break;
+        }
+        
+        if(hLaTeG < 1)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    public void cHeCkStAtS()
+    {
+        switch(ai)
+        {
+            case aiTypes.SingleShot:
+            speed = STATS.sPd;
+            hLaTeG = STATS.hEaLtH;
+            break;
+
+            case aiTypes.MultiShot:
+            speed = STATS.sPd;
+            hLaTeG = STATS.hEaLtH;
+            break;
+
+            case aiTypes.Foof:
+            speed = STATS.sPd;
+            hLaTeG = STATS.hEaLtH;
             break;
         }
     }

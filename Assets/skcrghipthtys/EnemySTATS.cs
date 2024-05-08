@@ -5,10 +5,10 @@ using UnityEngine;
 [CreateAssetMenu]
 public class EnemySTATS : ScriptableObject
 {
-    public int health;
-    public float spd;
-    public float chrgRdus;
-    public float chrgSpud;
-    public float fireRate;
-    public float shootabilitization;
+    public int hEaLtH;
+    public float sPd;
+    public float cHrGrDuS;
+    public float cHrGsPuD;
+    public float fIrErAtE;
+    public float sHoOtAbIlItIzAtIoN;
 }

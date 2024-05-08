@@ -10,7 +10,7 @@ public class PlayerData : ScriptableObject
    public float spread;
    public int damage;
    public bool dash;
-   public int cashmoneys;
+   public int dollasForYou;
    public int projectiles;
    public float bulletSize;
    public float relaod;

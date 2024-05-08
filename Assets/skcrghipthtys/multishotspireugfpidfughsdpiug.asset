@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26752b72a0dd94a5aaa13cc192d76d7a, type: 3}
   m_Name: multishotspireugfpidfughsdpiug
   m_EditorClassIdentifier: 
-  health: 70
-  spd: 100
-  chrgRdus: 0
-  chrgSpud: 0
-  fireRate: 0.1
-  shootabilitization: 10
+  hEaLtH: 0
+  sPd: 500
+  cHrGrDuS: 0
+  cHrGsPuD: 0
+  fIrErAtE: 0
+  sHoOtAbIlItIzAtIoN: 0
