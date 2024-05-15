@@ -318,7 +318,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -980,7 +980,7 @@ MonoBehaviour:
   m_Follow: {fileID: 2103491982}
   m_Lens:
     FieldOfView: 34
-    OrthographicSize: 5
+    OrthographicSize: 10
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -1368,7 +1368,7 @@ GameObject:
   - component: {fileID: 2103491984}
   m_Layer: 0
   m_Name: Playmonkey
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

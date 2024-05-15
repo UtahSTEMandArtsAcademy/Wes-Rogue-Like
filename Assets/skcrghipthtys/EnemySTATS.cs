@@ -11,4 +11,5 @@ public class EnemySTATS : ScriptableObject
     public float cHrGsPuD;
     public float fIrErAtE;
     public float sHoOtAbIlItIzAtIoN;
+    public float damAGESDFSDFSDFSDFDS;
 }

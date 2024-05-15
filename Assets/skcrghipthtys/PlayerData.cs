@@ -6,6 +6,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PlayerData : ScriptableObject
 {
+   public float hEaLtH;
    public float speed;
    public float spread;
    public int damage;

@@ -27,5 +27,9 @@ public class Player : MonoBehaviour
         {
             gun.Shoot();
         }
+
+        if(STATS.hEaLtH <= 0){
+            Destroy(this.gameObject);
+        }
     }
 }

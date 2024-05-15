@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26752b72a0dd94a5aaa13cc192d76d7a, type: 3}
   m_Name: foof;hadbghsdfbgklshdf
   m_EditorClassIdentifier: 
-  hEaLtH: 0
+  hEaLtH: 100
   sPd: 500
   cHrGrDuS: 20
   cHrGsPuD: 1200
   fIrErAtE: 0
   sHoOtAbIlItIzAtIoN: 0
+  damAGESDFSDFSDFSDFDS: 9999999

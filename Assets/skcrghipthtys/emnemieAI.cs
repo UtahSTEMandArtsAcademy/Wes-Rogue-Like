@@ -19,6 +19,7 @@ public class emnemieAI : MonoBehaviour
     private float hLaTeG;
     public EnemySTATS STATS;
     public aiTypes ai;
+    public PlayerData playstatisticalitiation;
     // Start is called before the first frame update
     void Start()
     {
@@ -78,6 +79,23 @@ public class emnemieAI : MonoBehaviour
             speed = STATS.sPd;
             hLaTeG = STATS.hEaLtH;
             break;
+        }
+        if(hLaTeG<=0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+    void OnTriggerEnter2D(             Collider2D other            )
+    {
+        if(               other.gameObject.CompareTag("bUllet")                    )
+        {
+            hLaTeG -= playstatisticalitiation.damage;
+        }
+    }
+    void OnCollisionEnter2D(Collision2D otheretiuewy)
+    {
+        if(otheretiuewy.gameObject.CompareTag("Player")){
+            playstatisticalitiation.hEaLtH -= STATS.damAGESDFSDFSDFSDFDS;
         }
     }
 }
