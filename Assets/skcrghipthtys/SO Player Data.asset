@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24abe7a4c1d4e4be98548e94380bff63, type: 3}
   m_Name: SO Player Data
   m_EditorClassIdentifier: 
-  hEaLtH: -9999994
+  hEaLtH: 0
   speed: 1000
   spread: 0
   damage: 1
@@ -20,6 +20,6 @@ MonoBehaviour:
   dollasForYou: 0
   projectiles: 0
   bulletSize: 0
-  relaod: 0
+  relaod: 300
   bullitLife: 10
   bulletSped: 1000

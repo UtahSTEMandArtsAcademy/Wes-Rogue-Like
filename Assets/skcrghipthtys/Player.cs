@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -11,6 +12,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rigidbodyTwoDimensenional = GetComponent<Rigidbody2D>();
+        STATS.hEaLtH = 10;
     }
 
     // this happens
