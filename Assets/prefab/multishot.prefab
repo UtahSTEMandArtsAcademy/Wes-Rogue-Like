@@ -32,7 +32,8 @@ Transform:
   m_LocalPosition: {x: 2.135, y: 0.888, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7120200719357799770}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6480182691710699990
@@ -175,3 +176,37 @@ MonoBehaviour:
   STATS: {fileID: 11400000, guid: 3254b7e8e141f411c968dde2e4a1a7e3, type: 2}
   ai: 1
   playstatisticalitiation: {fileID: 11400000, guid: 9a61fbea16c6b4b3095cc98afa8470f3, type: 2}
+  peww: {fileID: 7721459125115179107, guid: e0183595f9c5745199998666c2320ad9, type: 3}
+  pewShootPoint: {fileID: 4227951474824478067}
+  timerrizationarticulationizionizationl: 0
+--- !u!1 &4227951474824478067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7120200719357799770}
+  m_Layer: 0
+  m_Name: pewpoiiiiiiiiiiiiiiiiit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7120200719357799770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4227951474824478067}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.618, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9086169415396791810}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

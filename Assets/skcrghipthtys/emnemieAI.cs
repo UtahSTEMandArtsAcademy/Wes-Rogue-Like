@@ -20,6 +20,9 @@ public class emnemieAI : MonoBehaviour
     public EnemySTATS STATS;
     public aiTypes ai;
     public PlayerData playstatisticalitiation;
+    public GameObject peww;
+    public GameObject pewShootPoint;
+    public float timerrizationarticulationizionizationl;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,13 +36,41 @@ public class emnemieAI : MonoBehaviour
     {
         Vector2 direction = (player.transform.position - transform.position).normalized;
         transform.up = direction;
+        timerrizationarticulationizionizationl+=Time.deltaTime;
         rb.AddForce(direction * speed * Time.deltaTime);
         switch(ai)
         {
             case aiTypes.SingleShot:
+            if(timerrizationarticulationizionizationl>=STATS.fIrErAtE)
+            {
+                Rigidbody2D bullet = Instantiate(peww, pewShootPoint.transform.position, transform.rotation).GetComponent<Rigidbody2D>();
+                bullet.AddForce(transform.up * STATS.pewfastnessization);
+                timerrizationarticulationizionizationl=0;
+            }
+            
+            
             break;
 
             case aiTypes.MultiShot:
+            int darbulefonge = 0;
+
+            if(timerrizationarticulationizionizationl>=STATS.fIrErAtE)
+            {
+                if (darbulefonge<10)
+                {
+                    Rigidbody2D bullet = Instantiate(peww, pewShootPoint.transform.position, transform.rotation *= Quaternion.Euler(new Vector3 (0, 0 , Random.Range(-2, 2)))).GetComponent<Rigidbody2D>();
+                    bullet.AddForce(transform.up * STATS.pewfastnessization);
+                    darbulefonge++;
+                }
+                else{
+                    darbulefonge = 0;
+                }
+
+                
+               
+                timerrizationarticulationizionizationl=0;
+            }
+            
             break;
 
             case aiTypes.Foof:
