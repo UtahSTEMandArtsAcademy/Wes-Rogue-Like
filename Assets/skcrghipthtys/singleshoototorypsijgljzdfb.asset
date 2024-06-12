@@ -16,6 +16,7 @@ MonoBehaviour:
   sPd: 500
   cHrGrDuS: 0
   cHrGsPuD: 0
-  fIrErAtE: 0
+  fIrErAtE: 1
   sHoOtAbIlItIzAtIoN: 0
   damAGESDFSDFSDFSDFDS: 1
+  pewfastnessization: 1000

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -46,6 +47,7 @@ public class emnemieAI : MonoBehaviour
                 Rigidbody2D bullet = Instantiate(peww, pewShootPoint.transform.position, transform.rotation).GetComponent<Rigidbody2D>();
                 bullet.AddForce(transform.up * STATS.pewfastnessization);
                 timerrizationarticulationizionizationl=0;
+                Destroy(bullet.gameObject, 10);
             }
             
             

@@ -5,16 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - bUllet
+  - unbullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
-  - 
-  - 
-  - 
+  - enemyuyuy
+  - peebullet
+  - ebllt
   - 
   - 
   - 
