@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ public class Player : MonoBehaviour
     public PlayerData STATS;
     public Rigidbody2D rigidbodyTwoDimensenional;
     public PewPewScript gun;
+    public GameObject forTheUi;
     // doodly doo doo
     void Start()
     {
@@ -34,4 +36,18 @@ public class Player : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    void OnDestroy()
+    {
+        forTheUi.SetActive(true);
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.gameObject.tag == "unbullet")
+        {
+            STATS.HealthChange(-1);
+        }
+    }
+
 }

@@ -18,4 +18,9 @@ public class PlayerData : ScriptableObject
    public float bullitLife;
    public float bulletSped;
    
+
+   public void HealthChange(int num)
+    {
+        hEaLtH += num;
+    }
 }
