@@ -38,7 +38,7 @@ public class emnemieAI : MonoBehaviour
         Vector2 direction = (player.transform.position - transform.position).normalized;
         transform.up = direction;
         timerrizationarticulationizionizationl+=Time.deltaTime;
-        rb.AddForce(direction * speed * Time.deltaTime);
+        rb.velocity = direction * speed * Time.deltaTime;
         switch(ai)
         {
             case aiTypes.SingleShot:

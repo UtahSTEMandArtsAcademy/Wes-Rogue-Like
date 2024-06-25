@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2438808324758044671}
   - component: {fileID: 2949695585946403827}
   - component: {fileID: 4143093588911759740}
+  - component: {fileID: 3923675412503673008}
   m_Layer: 0
   m_Name: multishot
   m_TagString: Untagged
@@ -179,6 +180,21 @@ MonoBehaviour:
   peww: {fileID: 7721459125115179107, guid: e0183595f9c5745199998666c2320ad9, type: 3}
   pewShootPoint: {fileID: 4227951474824478067}
   timerrizationarticulationizionizationl: 0
+--- !u!114 &3923675412503673008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2901605816024991792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2599927ea43284a2cb3cd3dbba3585f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  minimax: 100
+  minimin: -100
 --- !u!1 &4227951474824478067
 GameObject:
   m_ObjectHideFlags: 0

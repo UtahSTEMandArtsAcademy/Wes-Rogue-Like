@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 730401167354646823}
   - component: {fileID: 6597695678613052912}
   - component: {fileID: 7375841181099886844}
+  - component: {fileID: -957147431554381603}
   m_Layer: 0
   m_Name: singleeshotttttttttttttt
   m_TagString: Untagged
@@ -178,6 +179,22 @@ MonoBehaviour:
   playstatisticalitiation: {fileID: 11400000, guid: 9a61fbea16c6b4b3095cc98afa8470f3, type: 2}
   peww: {fileID: 7721459125115179107, guid: e0183595f9c5745199998666c2320ad9, type: 3}
   pewShootPoint: {fileID: 6907709108402906500}
+  timerrizationarticulationizionizationl: 0
+--- !u!114 &-957147431554381603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604360258476398323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2599927ea43284a2cb3cd3dbba3585f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  minimax: 100
+  minimin: -100
 --- !u!1 &6907709108402906500
 GameObject:
   m_ObjectHideFlags: 0
